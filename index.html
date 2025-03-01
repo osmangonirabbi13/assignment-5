@@ -28,7 +28,9 @@
               <div>
                 <img class="w-6 h-6" src="./assets/checkbox.png" alt="" />
               </div>
-              <div><p class="text-2xl font-bold">23</p></div>
+              <div>
+                <p id="task-completed" class="text-2xl font-bold">23</p>
+              </div>
             </div>
             <button id="theme-btn" class="bg-[#F4F7FF] p-3 rounded-full">
               <img src="./assets/theme-btn.png" alt="" />
@@ -51,7 +53,7 @@
               </div>
               <div>
                 <p>Task Assigned</p>
-                <h2 class="text-2xl font-bold">05</h2>
+                <h2 id="task-count" class="text-2xl font-bold">05</h2>
               </div>
             </div>
             <div
@@ -102,10 +104,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button
-                    id="btn-1"
-                    class="bg-[#3752FD] text-white px-5 py-2 rounded-md"
-                  >
+                  <button id="btn1" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -134,7 +133,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+                  <button id="btn2" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -163,7 +162,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+                  <button id="btn3" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -192,7 +191,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+                  <button id="btn4" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -221,7 +220,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+                  <button id="btn5" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -250,7 +249,7 @@
                   <p>21 March 2025</p>
                 </div>
                 <div>
-                  <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+                  <button id="btn6" class="btn btn-primary rounded-md">
                     Completed
                   </button>
                 </div>
@@ -265,11 +264,15 @@
             <div><p class="font-bold text-xl">Activity Log</p></div>
           </div>
           <div class="mx-28 mt-8">
-            <button class="bg-[#3752FD] text-white px-5 py-2 rounded-md">
+            <button
+              id="clear-history"
+              class="bg-[#3752FD] text-white px-5 py-2 rounded-md"
+            >
               Clear History
             </button>
           </div>
           <div class="border-b-2 border-dashed mt-4"></div>
+          <div id="task-history" class="py-5 px-3 space-y-5"></div>
         </section>
       </main>
     </section>
