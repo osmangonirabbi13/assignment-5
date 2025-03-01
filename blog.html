@@ -11,5 +11,92 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body class="bg-[#F4F7FF]">
+    <header class="max-w-[1560px] pt-2 mx-auto">
+      <nav
+        class="bg-white shadow-md mt-7 rounded-3xl flex justify-between px-10 py-4"
+      >
+        <div class="flex items-center gap-2">
+          <div><img src="./assets/logo.png" alt="" /></div>
+          <div class="text-3xl">
+            Dev<span class="text-3xl font-bold">Board</span>
+          </div>
+        </div>
+        <div>
+          <button
+            id="backBtn"
+            class="btn btn-primary"
+            onclick="
+            location.href='index.html'"
+          >
+            Back Home
+          </button>
+        </div>
+      </nav>
+      <section class="mt-8"></section>
+      <div class="bg-white shadow-sm mt-7 rounded-3xl px-5 py-4">
+        <h2 class="text-2xl font-bold">
+          Question-1: What are the different ways to select an element in the
+          DOM?
+        </h2>
+        <p class="border-b-2 border-dashed mt-4 w-full"></p>
+        <p class="mt-2">
+          Answer : There are six ways to write document objects model (DOM) ,
+          example : <br />
+          document.getElementById("id") ,
+          document.getElementsByClassName("className") ,
+          document.getElementsByTagName("tagName") ,
+          document.querySelector("selector") ,
+          document.querySelectorAll("selector")
+        </p>
+      </div>
+
+      <div class="bg-white shadow-sm mt-7 rounded-3xl px-5 py-4">
+        <h2 class="text-2xl font-bold">
+          Question-2: What is the difference between innerHTML, innerText, and
+          textContent ?
+        </h2>
+        <p class="border-b-2 border-dashed mt-4 w-full"></p>
+        <p class="mt-2">
+          Answer : textContent property returns the text content of the node.
+          innerHTML property returns the HTML content of the node. innerText
+          property returns the text content of the node.
+        </p>
+      </div>
+      <div class="bg-white shadow-sm mt-7 rounded-3xl px-5 py-4">
+        <h2 class="text-2xl font-bold">
+          Question-3: What is event delegation in the DOM?
+        </h2>
+        <p class="border-b-2 border-dashed mt-4 w-full"></p>
+        <p class="mt-2">
+          Answer : Event delegation is a technique in JavaScript that allows you
+          to attach event listeners to a parent element instead of attaching
+          them to each individual child element.
+        </p>
+      </div>
+      <div class="bg-white shadow-sm mt-7 rounded-3xl px-5 py-4">
+        <h2 class="text-2xl font-bold">
+          Question-4: What is event bubbling in the DOM?
+        </h2>
+        <p class="border-b-2 border-dashed mt-4 w-full"></p>
+        <p class="mt-2">
+          Answer : Event bubbling is a concept in JavaScript where events are
+          propagated from the innermost element to the outermost element.
+        </p>
+      </div>
+      <div class="bg-white shadow-sm mt-7 rounded-3xl px-5 py-4">
+        <h2 class="text-2xl font-bold">
+          Question-5: How do you create, add, and remove elements using
+          JavaScript?
+        </h2>
+        <p class="border-b-2 border-dashed mt-4 w-full"></p>
+        <p class="mt-2">
+          Answer : <br />
+          1. document.createElement() <br />
+          2. document.appendChild() <br />
+          3. document.removeChild()
+        </p>
+      </div>
+    </header>
+  </body>
 </html>
